@@ -7,7 +7,7 @@ $size.width=$monitor.ScreenWidth
 $size.height=$monitor.ScreenHeight
 $Shell.BufferSize = $size
 $size = $Shell.WindowSize
-$size.height=25
+$size.height=94
 $size.width=80
 $Shell.WindowSize = $size
 $shell.BackgroundColor = "Black"
@@ -18,4 +18,3 @@ set-location c:\
 new-item alias:np -value C:\Windows\System32\notepad.exe
 
 # Clear powershell window for a clean workspace on launch
-Clear-Host
